@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misun Style - Tienda Online</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #ff99cc, #9b5de5);
+      color: #f0f0f0;
+    }
+    .navbar {
+      background: linear-gradient(to right, #ff99cc, #9b5de5);
+    }
+    .footer {
+      background: linear-gradient(to right, #ff99cc, #9b5de5);
+      color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .logo img {
+      width: 300px;
+    }
+    .social-icons li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .social-icons li a {
+      color: #f0f0f0;
+      font-size: 24px;
+    }
+    .social-icons li a:hover {
+      color: #ccc;
+    }
+    .nav-link i {
+      transform: rotate(180deg);
+      display: inline-block;
+      margin-left: 5px;
+    }
+    .nav-link i.fa-user {
+      transform: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Misun Style</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Logotipo -->
+  <div class="logo">
+    <img src="img/Logo Misun.png" alt="Logotipo de Misun Style">
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Menú lateral -->
+      <div class="col-md-3">
+        <h5>Menú</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio <i class="fas fa-chevron-right"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos <i class="fas fa-chevron-right"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ofertas <i class="fas fa-chevron-right"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto <i class="fas fa-chevron-right"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ayuda <i class="fas fa-chevron-right"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contenido principal -->
+      <div class="col-md-9">
+        <h1 class="text-center">Bienvenido a Misun Style</h1>
+        <p>Aquí encontrarás una amplia variedad de productos de moda.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Redes sociales -->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <h5>Síguenos en redes sociales</h5>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>&copy; 2023 Misun Style. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
